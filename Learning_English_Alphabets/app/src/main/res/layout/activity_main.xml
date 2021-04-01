@@ -4,19 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_700"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="377dp"
-        android:layout_height="47dp"
-        android:background="@color/teal_700"
-        android:text="Learning English Alphabets"
-        android:textColor="@color/design_default_color_error"
-        android:textSize="30sp"
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="618dp"
+        android:layout_height="978dp"
+        android:onClick="Display"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513"
+        app:srcCompat="@drawable/background1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
