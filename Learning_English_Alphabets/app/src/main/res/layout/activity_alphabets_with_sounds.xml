@@ -29,20 +29,20 @@
             android:id="@+id/alphabetB"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="88dp"
+            android:onClick="AlphabetB"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/b"
-            android:onClick="AlphabetB"/>
+            app:srcCompat="@drawable/b" />
 
         <ImageView
             android:id="@+id/alphabetC"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetC"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetA"
-            app:srcCompat="@drawable/c"
-            android:onClick="AlphabetC"/>
+            app:srcCompat="@drawable/c" />
 
         <ImageView
             android:id="@+id/alphabetD"

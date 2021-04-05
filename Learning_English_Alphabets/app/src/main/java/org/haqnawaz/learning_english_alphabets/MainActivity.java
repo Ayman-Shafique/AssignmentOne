@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Display(View view) {
-        Intent intent = new Intent(MainActivity.this, AlphabetsWithSounds.class);
+        //Intent intent = new Intent(MainActivity.this, AlphabetsWithSounds.class);
+        Intent intent = new Intent(MainActivity.this, Menu.class);
         startActivity(intent);
     }
 }
