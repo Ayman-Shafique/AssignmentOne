@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/alphabet_song"
         android:layout_width="618dp"
         android:layout_height="978dp"
         android:onClick="Display"

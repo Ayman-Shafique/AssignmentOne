@@ -20,7 +20,15 @@ public class Menu extends AppCompatActivity {
     }
 
     public void AlphabetSong(View view) {
-        Intent intent = new Intent(Menu.this, AphabetSongVideo.class);
+        Intent intent = new Intent(Menu.this, AlphabetSongVideo.class);
         startActivity(intent);
+    }
+
+    public void LearnAlphabetSong(View view) {
+        Intent intent = new Intent(Menu.this, AlphabetLearning.class);
+        startActivity(intent);
+    }
+
+    public void AlphabetPhonics(View view) {
     }
 }

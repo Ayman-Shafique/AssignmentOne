@@ -6,13 +6,12 @@
     xmlns:tools="http://schemas.android.com/tools"
 
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/background">
+    android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background"
+        android:background="@drawable/blue_lines"
         android:visibility="visible"
         tools:context=".AlphabetsWithSounds">
 
@@ -29,7 +28,7 @@
             android:id="@+id/alphabetB"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:layout_marginTop="88dp"
+            android:layout_marginTop="96dp"
             android:onClick="AlphabetB"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -39,6 +38,8 @@
             android:id="@+id/alphabetC"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
             android:onClick="AlphabetC"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetA"
@@ -48,191 +49,191 @@
             android:id="@+id/alphabetD"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetD"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetB"
-            app:srcCompat="@drawable/d"
-            android:onClick="AlphabetD"/>
+            app:srcCompat="@drawable/d" />
 
         <ImageView
             android:id="@+id/alphabetE"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetE"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetC"
-            app:srcCompat="@drawable/e"
-            android:onClick="AlphabetE"/>
+            app:srcCompat="@drawable/e" />
 
         <ImageView
             android:id="@+id/alphabetF"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetD"
-            app:srcCompat="@drawable/f"
-            android:onClick="AlphabetF"/>
+            app:srcCompat="@drawable/f" />
 
         <ImageView
             android:id="@+id/alphabetG"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetG"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetE"
-            app:srcCompat="@drawable/g"
-            android:onClick="AlphabetG"/>
+            app:srcCompat="@drawable/g" />
 
         <ImageView
             android:id="@+id/alphabetH"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetH"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetF"
-            app:srcCompat="@drawable/h"
-            android:onClick="AlphabetH"/>
+            app:srcCompat="@drawable/h" />
 
         <ImageView
             android:id="@+id/alphabetI"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetI"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetG"
-            app:srcCompat="@drawable/i"
-            android:onClick="AlphabetI"/>
+            app:srcCompat="@drawable/i" />
 
         <ImageView
             android:id="@+id/alphabetJ"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetJ"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetH"
-            app:srcCompat="@drawable/j"
-            android:onClick="AlphabetJ"/>
+            app:srcCompat="@drawable/j" />
 
         <ImageView
             android:id="@+id/alphabetK"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetK"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetI"
-            app:srcCompat="@drawable/k"
-            android:onClick="AlphabetK"/>
+            app:srcCompat="@drawable/k" />
 
         <ImageView
             android:id="@+id/alphabetV"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetV"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetT"
-            app:srcCompat="@drawable/v"
-            android:onClick="AlphabetV"/>
+            app:srcCompat="@drawable/v" />
 
         <ImageView
             android:id="@+id/alphabetL"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetL"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetJ"
-            app:srcCompat="@drawable/l"
-            android:onClick="AlphabetL"/>
+            app:srcCompat="@drawable/l" />
 
         <ImageView
             android:id="@+id/alphabetM"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetM"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetK"
-            app:srcCompat="@drawable/m"
-            android:onClick="AlphabetM"/>
+            app:srcCompat="@drawable/m" />
 
         <ImageView
             android:id="@+id/alphabetN"
             android:layout_width="206dp"
             android:layout_height="228dp"
             android:layout_marginTop="8dp"
+            android:onClick="AlphabetN"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetL"
-            app:srcCompat="@drawable/n"
-            android:onClick="AlphabetN"/>
+            app:srcCompat="@drawable/n" />
 
         <ImageView
             android:id="@+id/alphabetO"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetO"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetM"
-            app:srcCompat="@drawable/o"
-            android:onClick="AlphabetO"/>
+            app:srcCompat="@drawable/o" />
 
         <ImageView
             android:id="@+id/alphabetQ"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetQ"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetO"
-            app:srcCompat="@drawable/q"
-            android:onClick="AlphabetQ"/>
+            app:srcCompat="@drawable/q" />
 
         <ImageView
             android:id="@+id/alphabetR"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetR"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetP"
-            app:srcCompat="@drawable/r"
-            android:onClick="AlphabetR"/>
+            app:srcCompat="@drawable/r" />
 
         <ImageView
             android:id="@+id/alphabetS"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetS"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetQ"
-            app:srcCompat="@drawable/s"
-            android:onClick="AlphabetS"/>
+            app:srcCompat="@drawable/s" />
 
         <ImageView
             android:id="@+id/alphabetU"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetU"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetS"
-            app:srcCompat="@drawable/u"
-            android:onClick="AlphabetU"/>
+            app:srcCompat="@drawable/u" />
 
         <ImageView
             android:id="@+id/alphabetT"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetT"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetR"
-            app:srcCompat="@drawable/t"
-            android:onClick="AlphabetT"/>
+            app:srcCompat="@drawable/t" />
 
         <ImageView
             android:id="@+id/alphabetP"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetP"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetN"
-            app:srcCompat="@drawable/p"
-            android:onClick="AlphabetP"/>
+            app:srcCompat="@drawable/p" />
 
         <ImageView
             android:id="@+id/alphabetW"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetW"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetU"
-            app:srcCompat="@drawable/w"
-            android:onClick="AlphabetW"/>
+            app:srcCompat="@drawable/w" />
 
         <ImageView
             android:id="@+id/alphabetX"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetX"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetV"
-            app:srcCompat="@drawable/x"
-            android:onClick="AlphabetX"/>
+            app:srcCompat="@drawable/x" />
 
         <ImageView
             android:id="@+id/alphabetZ"
@@ -247,10 +248,10 @@
             android:id="@+id/alphabetY"
             android:layout_width="206dp"
             android:layout_height="228dp"
+            android:onClick="AlphabetY"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetW"
-            app:srcCompat="@drawable/y"
-            android:onClick="AlphabetY"/>
+            app:srcCompat="@drawable/y" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
