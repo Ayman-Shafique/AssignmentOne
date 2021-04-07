@@ -19,7 +19,7 @@
             android:id="@+id/alphabetA"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetA"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/a" />
@@ -29,7 +29,7 @@
             android:layout_width="206dp"
             android:layout_height="228dp"
             android:layout_marginTop="96dp"
-            android:onClick="AlphabetB"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/b" />
@@ -40,7 +40,7 @@
             android:layout_height="228dp"
             android:layout_marginStart="4dp"
             android:layout_marginLeft="4dp"
-            android:onClick="AlphabetC"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetA"
             app:srcCompat="@drawable/c" />
@@ -49,7 +49,7 @@
             android:id="@+id/alphabetD"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetD"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetB"
             app:srcCompat="@drawable/d" />
@@ -58,7 +58,7 @@
             android:id="@+id/alphabetE"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetE"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetC"
             app:srcCompat="@drawable/e" />
@@ -67,7 +67,7 @@
             android:id="@+id/alphabetF"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetF"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetD"
             app:srcCompat="@drawable/f" />
@@ -76,7 +76,7 @@
             android:id="@+id/alphabetG"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetG"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetE"
             app:srcCompat="@drawable/g" />
@@ -85,7 +85,7 @@
             android:id="@+id/alphabetH"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetH"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetF"
             app:srcCompat="@drawable/h" />
@@ -94,7 +94,7 @@
             android:id="@+id/alphabetI"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetI"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetG"
             app:srcCompat="@drawable/i" />
@@ -103,7 +103,7 @@
             android:id="@+id/alphabetJ"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetJ"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetH"
             app:srcCompat="@drawable/j" />
@@ -112,7 +112,7 @@
             android:id="@+id/alphabetK"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetK"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetI"
             app:srcCompat="@drawable/k" />
@@ -121,7 +121,7 @@
             android:id="@+id/alphabetV"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetV"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetT"
             app:srcCompat="@drawable/v" />
@@ -130,7 +130,7 @@
             android:id="@+id/alphabetL"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetL"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetJ"
             app:srcCompat="@drawable/l" />
@@ -139,7 +139,7 @@
             android:id="@+id/alphabetM"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetM"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetK"
             app:srcCompat="@drawable/m" />
@@ -149,7 +149,7 @@
             android:layout_width="206dp"
             android:layout_height="228dp"
             android:layout_marginTop="8dp"
-            android:onClick="AlphabetN"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetL"
             app:srcCompat="@drawable/n" />
@@ -158,7 +158,7 @@
             android:id="@+id/alphabetO"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetO"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetM"
             app:srcCompat="@drawable/o" />
@@ -167,7 +167,7 @@
             android:id="@+id/alphabetQ"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetQ"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetO"
             app:srcCompat="@drawable/q" />
@@ -176,7 +176,7 @@
             android:id="@+id/alphabetR"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetR"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetP"
             app:srcCompat="@drawable/r" />
@@ -185,7 +185,7 @@
             android:id="@+id/alphabetS"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetS"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetQ"
             app:srcCompat="@drawable/s" />
@@ -194,7 +194,7 @@
             android:id="@+id/alphabetU"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetU"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetS"
             app:srcCompat="@drawable/u" />
@@ -203,7 +203,7 @@
             android:id="@+id/alphabetT"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetT"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetR"
             app:srcCompat="@drawable/t" />
@@ -212,7 +212,7 @@
             android:id="@+id/alphabetP"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetP"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetN"
             app:srcCompat="@drawable/p" />
@@ -221,7 +221,7 @@
             android:id="@+id/alphabetW"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetW"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetU"
             app:srcCompat="@drawable/w" />
@@ -230,7 +230,7 @@
             android:id="@+id/alphabetX"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetX"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetV"
             app:srcCompat="@drawable/x" />
@@ -239,7 +239,7 @@
             android:id="@+id/alphabetZ"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetZ"
+            android:onClick="AlphabetSounds"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetX"
             app:srcCompat="@drawable/z" />
@@ -248,7 +248,7 @@
             android:id="@+id/alphabetY"
             android:layout_width="206dp"
             android:layout_height="228dp"
-            android:onClick="AlphabetY"
+            android:onClick="AlphabetSounds"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alphabetW"
             app:srcCompat="@drawable/y" />
