@@ -17,7 +17,7 @@ public class AlphabetsWithSounds extends AppCompatActivity {
     public void ShowRotation(View view)
     {
         ImageView imageView = findViewById(view.getId());
-        imageView.animate().rotationBy(360).setDuration(2000);
+        imageView.animate().rotationBy(360).setDuration(1500);
     }
     public void AlphabetA(View view) {
         ShowRotation(view);
@@ -46,7 +46,7 @@ public class AlphabetsWithSounds extends AppCompatActivity {
     }
     public void AlphabetF(View view) {
         ShowRotation(view);
-        mp=MediaPlayer.create(this,R.raw.g_sound);
+        mp=MediaPlayer.create(this,R.raw.f_sound);
         mp.start();
     }
     public void AlphabetG(View view) {
@@ -111,8 +111,8 @@ public class AlphabetsWithSounds extends AppCompatActivity {
     }
     public void AlphabetS(View view) {
         ShowRotation(view);
-        //mp=MediaPlayer.create(this,R.raw.s_sound);
-        //mp.start();
+        mp=MediaPlayer.create(this,R.raw.s_sound);
+        mp.start();
     }
     public void AlphabetT(View view) {
         ShowRotation(view);

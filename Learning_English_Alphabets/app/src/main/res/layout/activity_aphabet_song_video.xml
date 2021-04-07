@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/flower"
+    android:background="@drawable/background6"
     tools:context=".AlphabetSongVideo">
 
     <TextView
@@ -15,7 +15,9 @@
         android:text="Alphabet Song"
         android:textColor="@color/teal_700"
         android:textColorHighlight="@color/design_default_color_secondary_variant"
+        android:fontFamily="@font/font2"
         android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

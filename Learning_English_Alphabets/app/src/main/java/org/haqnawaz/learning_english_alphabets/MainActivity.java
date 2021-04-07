@@ -14,8 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void Display(View view) {
-        //Intent intent = new Intent(MainActivity.this, AlphabetsWithSounds.class);
+    public void DisplayMenu(View view) {
         Intent intent = new Intent(MainActivity.this, Menu.class);
         startActivity(intent);
     }

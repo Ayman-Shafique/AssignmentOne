@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background2"
-    tools:context=".Menu"
-    >
+    tools:context=".Menu">
 
     <GridLayout
         android:layout_width="match_parent"
@@ -23,41 +22,43 @@
             android:id="@+id/alphabet_sound_view"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="30dp"
             android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:onClick="AlphabetSounds"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/alphabets"
-            android:onClick="AlphabetSounds"/>
+            app:srcCompat="@drawable/alphabets" />
 
         <ImageView
             android:id="@+id/alphabet_phonics_view"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="20dp"
             android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:onClick="AlphabetPhonics"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/abc_phonics"
-            android:onClick="AlphabetPhonics"/>
+            app:srcCompat="@drawable/abc_phonics" />
+
         <ImageView
             android:id="@+id/alphabet_song"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:layout_marginLeft="30dp"
             android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:onClick="LearnAlphabetSong"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/alphabet_song_option"
-            android:onClick="LearnAlphabetSong"/>
+            app:srcCompat="@drawable/alphabet_song_option" />
+
         <ImageView
             android:id="@+id/abc_song"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:layout_marginLeft="20dp"
             android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:onClick="AlphabetSong"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/abc_song"
-            android:onClick="AlphabetSong"/>
+            app:srcCompat="@drawable/abc_song" />
     </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

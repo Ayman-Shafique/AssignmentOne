@@ -30,5 +30,7 @@ public class Menu extends AppCompatActivity {
     }
 
     public void AlphabetPhonics(View view) {
+        Intent intent = new Intent(Menu.this, AlphabetPhonics.class);
+        startActivity(intent);
     }
 }
